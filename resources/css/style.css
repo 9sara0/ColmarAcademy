@@ -40,6 +40,9 @@ html {
 
 body {
   font-family: 'FontinSans', sans-serif;
+  font-size: .85rem;
+  font-style: normal;
+  line-height: 1.5;
 }
 
 h1,
@@ -86,4 +89,37 @@ video {
 
 main div.container:nth-child(2n+1) {
   background-color: lightgrey;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+header .container {
+  height: 4rem;
+}
+
+.logo {
+  font-family: "Fontin";
+  font-weight: bold;
+  font-size: 1.15rem;
+  flex-grow: 1;
+  margin-left: 1.5rem;
+  height: 2rem;
+}
+
+header .right {
+  margin-right: 1.5rem;
+}
+
+header li {
+  padding: 1rem;
+}
+
+main,
+footer {
+  position: relative;
+  top: 4rem;
 }
