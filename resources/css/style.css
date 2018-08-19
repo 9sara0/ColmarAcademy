@@ -60,3 +60,29 @@ h2 {
 h3 {
   font-size: 1rem;
 }
+
+.container {
+  max-width: 100%;
+}
+
+.img_container,
+.video_container {
+  max-width: 50%;
+  height: auto;
+  overflow: hidden;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+main div.container:nth-child(2n+1) {
+  background-color: lightgrey;
+}
