@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'FontinSans';
+  src: url('../fonts/FontinSansCR-Regular.woff') format('woff'),
+       url('../fonts/FontinSansCR-Regular.ttf') format('truetype'),
+       url('../fonts/FontinSansCR-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fontin';
+  src: url('../fonts/Fontin-Regular.woff') format('woff'),
+       url('../fonts/Fontin-Regular.ttf') format('truetype'),
+       url('../fonts/Fontin-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FontinSans';
+  src: url('../fonts/FontinSansCR-Bold.woff') format('woff'),
+  url('../fonts/FontinSansCR-Bold.ttf') format('truetype'),
+  url('../fonts/FontinSansCR-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fontin';
+  src: url('../fonts/Fontin-Bold.woff') format('woff'),
+       url('../fonts/Fontin-Bold.ttf') format('truetype'),
+       url('../fonts/Fontin-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
