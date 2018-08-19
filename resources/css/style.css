@@ -81,6 +81,7 @@ video {
 
 .flex {
   display: flex;
+  align-items: center;
 }
 
 main div.container:nth-child(2n+1) {
