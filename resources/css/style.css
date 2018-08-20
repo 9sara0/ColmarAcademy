@@ -53,7 +53,9 @@ h3 {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  line-height: 1.25;
 }
 
 h2 {
@@ -87,9 +89,15 @@ video {
   align-items: center;
 }
 
+.column {
+  flex-direction: column;
+}
+
 main div.container:nth-child(2n+1) {
   background-color: lightgrey;
 }
+
+/* Header */
 
 header {
   position: fixed;
@@ -122,4 +130,47 @@ main,
 footer {
   position: relative;
   top: 4rem;
+}
+
+/* Banner */
+
+#banner {
+  font-weight: bold;
+}
+
+#banner .left {
+  margin: 2rem 1.5rem;
+}
+
+#banner .img_container {
+  max-width: 60%;
+}
+
+#banner .right {
+  max-width: 20rem;
+  max-height: 100%;
+}
+
+#banner p {
+  font-size: 1.25rem;
+  margin: 1rem 0;
+  max-width: 100%;
+}
+
+#banner .button {
+  display: block;
+  padding: .5rem 0;
+  border-radius: 1rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.changeable_features {
+  background-color: white;
+}
+
+.changeable_features:hover {
+  background-color: grey;
 }
