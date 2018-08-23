@@ -35,7 +35,12 @@
 }
 
 html {
+  box-sizing: border-box;
   font-size: 16px;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body {
@@ -72,7 +77,6 @@ h3 {
 
 .img_container,
 .video_container {
-  max-width: 50%;
   height: auto;
   overflow: hidden;
 }
@@ -103,6 +107,7 @@ header {
   position: fixed;
   width: 100%;
   z-index: 1;
+  background-color: white;
 }
 
 header .container {
@@ -173,4 +178,57 @@ footer {
 
 .changeable_features:hover {
   background-color: grey;
+}
+
+/* Information */
+
+#information {
+  align-items:stretch;
+}
+
+#information .left {
+  margin: 2rem 1.5rem;
+  max-width: 60%;
+}
+
+#information .left h2{
+  margin: 1.5rem 0;
+}
+
+#information .left span{
+  display: block;
+  margin: 2rem 0;
+}
+
+#information .right {
+  max-width: 40%;
+  border-left: 1px lightgrey solid;
+
+}
+
+#information .right ul li{
+  border: 1px lightgrey solid;
+  border-left: none;
+}
+
+#information .right ul li:first-child{
+  margin-top: 1rem;
+  border-top: none;
+}
+
+#information .right ul li:last-child{
+  border-bottom: none;
+}
+
+#information .right li .img_container {
+  margin: 1rem;
+  max-width: 35%;
+}
+
+#information .right li .text {
+  max-width: 65%;
+}
+
+#information .right li .text p {
+  margin: .5rem 0;
 }
