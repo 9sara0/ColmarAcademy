@@ -269,3 +269,59 @@ footer {
   display: block;
   padding-bottom: .5rem;
 }
+
+/* Thesis */
+
+#thesis h2 {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+#thesis .container {
+  align-items: stretch;
+}
+
+#thesis .left {
+  margin: 2rem 1.5rem;
+  max-width: 60%;
+}
+
+#thesis .left h3{
+  margin: 1.5rem 0;
+}
+
+#thesis .left p{
+  margin-bottom: 2rem;
+}
+
+#thesis .right {
+  max-width: 40%;
+  margin-top: 2rem;
+}
+
+#thesis .right ul li:first-child{
+  background-color: lightgrey;
+}
+
+#thesis .right li .img_container {
+  margin: 1rem;
+  max-width: 35%;
+}
+
+#thesis .right li .text {
+  max-width: 65%;
+}
+
+#thesis .right li .text p {
+  margin: .5rem 0;
+}
+
+/*
+#thesis .left {
+  margin: 2rem 1.5rem;
+  max-width: 60%;
+}
+
+#thesis .right {
+  max-width: 40%;
+} */
