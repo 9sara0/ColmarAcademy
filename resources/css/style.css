@@ -101,6 +101,10 @@ main div.container:nth-child(2n+1) {
   background-color: lightgrey;
 }
 
+.mob-view {
+  display: none;
+}
+
 /* Header */
 
 header {
@@ -135,6 +139,25 @@ main,
 footer {
   position: relative;
   top: 4rem;
+}
+
+/* Header Mobile View */
+
+@media only screen and (max-width: 790px) {
+
+  .logo,
+  header .right {
+    display: none;
+  }
+
+  nav.mob-view {
+    display: block;
+    width: 100%;
+  }
+
+  .mob-view ul {
+    justify-content: space-between;
+  }
 }
 
 /* Refactored code from Banner, Information and Thesis sections */
