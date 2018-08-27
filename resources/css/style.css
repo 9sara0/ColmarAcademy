@@ -189,6 +189,7 @@ footer {
 
 #banner .right {
   max-width: 20rem;
+  margin-right: 2rem;
 }
 
 #banner p {
@@ -214,6 +215,25 @@ footer {
   background-color: grey;
 }
 
+/* Banner Smaller Smaller Screen View */
+
+@media only screen and (max-width: 770px) {
+
+  #banner .flex {
+    flex-direction: column;
+  }
+
+  #banner .left {
+    margin: 0;
+    max-width: 100%;
+  }
+
+  #banner .right {
+    margin: 2rem 1rem;
+    max-width:100%;
+    text-align: center;
+  }
+}
 
 /* Refactored code from Information, Courses and Thesis sections */
 
